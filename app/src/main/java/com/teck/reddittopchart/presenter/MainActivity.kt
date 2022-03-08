@@ -17,7 +17,7 @@ import com.teck.reddittopchart.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
     private val viewBinding: ActivityMainBinding by viewBinding()
     private val navController: NavController by lazy {
-         findNavController(R.id.main_navigation)
+         findNavController(R.id.navigation_container)
     }
     private val drawerLayout: DrawerLayout by lazy {
         viewBinding.drawerLayout

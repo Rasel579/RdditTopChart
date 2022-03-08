@@ -60,6 +60,10 @@ dependencies {
     implementation(Design.NAVIGATION_FRAGMENT)
     implementation(Design.NAVIGATION_UI_KTX)
 
+    val paging_version = "3.1.0"
+
+    implementation ("androidx.paging:paging-runtime:$paging_version")
+
 
     // Koin
     implementation(Koin.ANDROID)
